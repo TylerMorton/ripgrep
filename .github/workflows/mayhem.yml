@@ -47,7 +47,7 @@ jobs:
     strategy:
       matrix:
         mayhemfile:
-          - search_result.mayhemfile
+          - search_reader.mayhemfile
 
     steps:
       - uses: actions/checkout@v2

@@ -1,0 +1,7 @@
+project: ripgrep
+target: search-reader
+
+cmds:
+  - cmd: /search_reader
+  - cmd: /search_reader_no_inst @@
+    libfuzzer: false

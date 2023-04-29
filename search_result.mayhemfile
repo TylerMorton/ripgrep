@@ -1,7 +1,0 @@
-project: ripgrep
-target: search_result
-
-cmds:
-  - cmd: /search_result
-  - cmd: /lexer_no_inst @@
-    libfuzzer: false
